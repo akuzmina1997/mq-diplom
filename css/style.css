@@ -100,30 +100,15 @@ a {
     z-index: 1;
 }
 
-/*.header-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}*/
-
 .container {
     position: relative;
     margin: 0px auto;
     min-width: 280px;
-    width: 85%;
-    /*height: 55%;*/
     z-index: 2;
 }
 
 .logo {
     width: 134px;
-    /*position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 44px;
-    padding-top: 3rem;*/
     margin: 33px auto 123px;
     z-index: 3;
 }
@@ -225,8 +210,6 @@ a {
     
     .container {
         width: 594px;
-        height: inherit;
-        height: 481px;
     }  
     
     .header-text-top {
@@ -308,7 +291,6 @@ a {
         font-size: 90px;
     }
     
-    
     .header-text-bottom {
         margin-right:  13px;
         padding-top: 0;    
@@ -320,7 +302,6 @@ a {
         max-width: 100%;
         width: 100%;
         margin: auto;
-        top: 770px 
     }
     
     .button {
@@ -376,6 +357,10 @@ a {
     justify-content: center;
 }
 
+.athletes-section {
+    position: relative;
+}
+
 .section-title {
     margin-left: 21px;
 }
@@ -408,6 +393,7 @@ a {
 
 .container-text {
     margin-left: 21px;
+    /*position: relative;*/
 }
 
 .number {
@@ -473,7 +459,8 @@ a {
 
 .squared-number {
     position: absolute;
-    margin-top: calc(-110px + 35px + 14px / 2);
+    /*margin-top: calc(-110px + 35px + 14px / 2);*/
+    margin-top: 0px;
     margin-left: calc(35px - 15px / 2);
     display: block;
 
@@ -486,7 +473,7 @@ a {
 
     width: 70px;
     height: 70px;
-    top: 290px;
+    top: 360px;
     left: 20px;
 }
 
@@ -510,15 +497,11 @@ a {
     border-bottom: 4px solid #3C1F91;
     border-radius: 2px 2px;
     position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: -3px;
+    bottom: 0;
 }
 
 .squared-header-number {
     position: relative;
-
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
@@ -764,6 +747,7 @@ a {
         margin: 75px 0px 70px 0px;
         padding: 0px 32px;
         font-size: 80px;
+        line-height: 60px;
     }
 
     .activities-text {
@@ -796,14 +780,12 @@ a {
 
     .athletes-img {
         position: absolute;
-        margin-top: 900px;
-        margin-left: 550px;
+        top: 25px;
+        left: 350px;
     }
 
     .athletes-section:nth-child(1) .athletes-img {
         position: absolute;
-        left: -178px;
-        top: 95px;
         box-sizing: border-box;
         z-index: 5;
     }
@@ -997,7 +979,8 @@ a {
     }
 
     .be-active-section h3 {
-        margin-top: 259px;
+        margin-top: 230px;
+        line-height: 90px;
     }
 
     .activities-text {
@@ -1041,6 +1024,7 @@ a {
     text-align: center;
     color: #FFFFFF;
     font-size: 14px;
+    min-height: 100vh;
 }
 
 .footer::after {
