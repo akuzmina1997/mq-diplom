@@ -276,15 +276,16 @@ a {
         background-image: url("../images/football_1920.jpg"); 
         min-width: 961px;
     }
+
+    .container {
+        width: 80%;
+        justify-content: center;
+        z-index: 3;
+    }
     
     .logo {
         width: 195px;
         margin: 45px auto 150px;
-    }
-    
-    .header-title {
-        width: 1531px;
-        justify-content: center;
     }
 
     .header-text-top {
@@ -497,7 +498,15 @@ a {
     border-bottom: 4px solid #3C1F91;
     border-radius: 2px 2px;
     position: absolute;
-    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: -3px;
+}
+
+.be-active-section .container-text > .squared-number {
+    position: absolute;
+    top: 300px;
 }
 
 .squared-header-number {
@@ -637,6 +646,11 @@ a {
 
     .athletes-container .header-number {
         color: #000000;
+    }
+
+    .be-active-section .container-text > .squared-number {
+        position: absolute;
+        top: 280px;
     }
 
     h4 {
@@ -843,8 +857,9 @@ a {
         font-size: 20px;
         line-height: 28px;
         letter-spacing: 0.1vw;
-        margin-left: 950px;
-        padding-right: 150px;
+        width: 49%;
+        margin-left: auto;
+        padding-right: 198px;
     }
 
     .players-section {
@@ -857,9 +872,10 @@ a {
         font-size: 80px;
         line-height: 1;
         margin-top: 100px;
-        margin-right: 950px;
+        margin-right: auto;
         padding-left: 150px;
         padding-bottom: 20px;
+        width: 49%;
     }
 
     .players-section:nth-child(1) .player-image {
@@ -898,7 +914,7 @@ a {
 
     .players-section h4 {
         font-size: 36px;
-        margin-right: 1000px;
+        margin-right: auto;
         padding-left: 120px;
     }
 
@@ -914,7 +930,8 @@ a {
         line-height: 28px;
         letter-spacing: 0.1vw;
         margin-top: 18px;
-        margin-right: 640px;
+        width: 49%;
+        margin-right: auto;
         padding-left: 100px;
     }
 
