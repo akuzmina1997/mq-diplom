@@ -363,7 +363,7 @@ a {
 }
 
 .section-title {
-    margin-left: 21px;
+    padding-left: 21px;
 }
 
 .athletes-img {
@@ -372,19 +372,12 @@ a {
     position: relative;
     min-width: 320px;
     font-family: "OpenSans";
-    margin-bottom: 81px;
-    margin-left: 21px;
 }
 
 .player-section .athletes .athletes-img {
     width: 100%;
     padding: 0 10px;
 }
-
-/*.athletes {
-    width: 60%;
-    max-height: 560px;
-}*/
 
 .athletes-container {
     margin-top: -60px;
@@ -393,8 +386,7 @@ a {
 }
 
 .container-text {
-    margin-left: 21px;
-    /*position: relative;*/
+    padding-left: 21px;
 }
 
 .number {
@@ -411,7 +403,7 @@ a {
     line-height: 18px;
     letter-spacing: 0.05em;
     padding-bottom: 50px;
-    margin-left: 21px;
+    padding-left: 21px;
     padding-right: 21px;
 }
 
@@ -440,8 +432,6 @@ a {
     position: relative;
     min-width: 320px;
     font-family: "OpenSans";
-    margin-bottom: 81px;
-    margin-left: 21px;
 }
 
 .connection-container {
@@ -473,7 +463,20 @@ a {
     width: 70px;
     height: 70px;
     top: -50px;
-    left: 10px;
+    z-index: 10;
+}
+
+.find-container-square {
+    position: absolute;
+    display: block;
+
+    background-color: #5844AC;
+    margin: auto;
+    padding: 26px;
+
+    width: 70px;
+    height: 70px;
+    top: -50px;
     z-index: 10;
 }
 
@@ -502,11 +505,6 @@ a {
     left: 0;
     bottom: -3px;
 }
-
-/*.be-active-section .container-text > .squared-number {
-    position: absolute;
-    top: 300px;
-}*/
 
 .squared-header-number {
     position: relative;
@@ -647,11 +645,6 @@ a {
         color: #000000;
     }
 
-    /*.be-active-section .container-text > .squared-number {
-        position: absolute;
-        top: 280px;
-    }*/
-
     h4 {
         font-size: 32px;
     }
@@ -761,6 +754,16 @@ a {
         width: 28px;
     }
 
+    .find-container-square {
+        position: absolute;
+        display: block;
+        width: 116px;
+        height: 116px;
+        padding: 44px;
+        top: -130px;
+        left: 20px;
+    }
+
     h3 {
         position: relative;
         margin: 75px 0px 70px 0px;
@@ -857,7 +860,6 @@ a {
     }
 
     .athletes-section .number {
-        /*margin-left: 950px;*/
         margin-left: 51%;
     }
 
@@ -967,19 +969,12 @@ a {
         color: #000000;
     }
 
-    /*.be-active-section {
-        display: flex;
-        flex-direction: column;
-    }*/
-
     .be-active, .find-container, .work-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .find-container {
@@ -992,7 +987,7 @@ a {
     }
 
     .be-active-section .container-text {
-        width: 48%;
+        width: 50%;
     }
     
     .squared-number {
@@ -1000,17 +995,16 @@ a {
         width: 116px;
         height: 116px;
         padding: 44px;
-        left: -88px;
+        left: -58px;
         top: 49%;
     }
 
-    .find-container .squared-number {
+    .find-container-square {
         position: absolute;
         width: 116px;
         height: 116px;
         padding: 44px;
-        /*left: 115%;*/
-        right: -960px;
+        right: -58px;
         top: 49%;
     }
 
